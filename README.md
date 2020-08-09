@@ -35,12 +35,12 @@ A deep convolutional autoencoder was used for dimensionality reduction of input 
 
 #### Performance
 
-| Algorithm         | Mean RMSE     | Median RMSE  |
+| Algorithm         | Mean RMSE (in cm)     | Median RMSE (in cm)  |
 | ------------------|:-------------:| :-----------:|
-| Deep CNN          | 0.388         |0.264        |
-| Poly Features+CNN | 0.18	        |0.123        |
-| PCA+CNN           | 0.124         |0.0775       |
-| Autoencoder+CNN   | 0.15          |0.1          |
+| Deep CNN          | 38.8         |26.4        |
+| Poly Features+CNN | 0.18	        |12.3        |
+| PCA+CNN           | 12.4         |7.75       |
+| Autoencoder+CNN   | 15          |10          |
 
 ### Ensembling with Time Reversal Resonating Strength
 
@@ -52,11 +52,11 @@ Impelementation - [PCA_TRRS_Ensemble.ipynb](PCA_TRRS_Ensemble.ipynb)
 
 #### Performance
 
-| Algorithm         | Mean RMSE     | Median RMSE  |
+| Algorithm         | Mean RMSE(in cm)     | Median RMSE (in cm)  |
 | ------------------|:-------------:| :-----------:|
-| PCA+CNN           | 0.124         |0.0775        |
-| TRRS              | 0.061         |0.0363        |
-| Ensemble          | 0.058         |0.0327        |
+| PCA+CNN           | 12.4         |7.75        |
+| TRRS              | 5.9         |3.63        |
+| Ensemble          | 5.6         |3.27        |
 
 ### Team
 1. [Aayush Goyal](https://github.com/aayush2710)
