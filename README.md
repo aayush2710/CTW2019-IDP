@@ -38,7 +38,7 @@ A deep convolutional autoencoder was used for dimensionality reduction of input 
 | Algorithm         | Mean RMSE (in cm)     | Median RMSE (in cm)  |
 | ------------------|:-------------:| :-----------:|
 | Deep CNN          | 38.8         |26.4        |
-| Poly Features+CNN | 0.18	        |12.3        |
+| Poly Features+CNN | 18	        |12.3        |
 | PCA+CNN           | 12.4         |7.75       |
 | Autoencoder+CNN   | 15          |10          |
 
